@@ -83,8 +83,7 @@ config.taskConfiguration = {
          *
          * @type {Array}
          */
-        bundles: [
-        ],
+        bundles: [],
 
         /**
          * Settings to be passed through to `gulp-sass` and `node-sass`.
@@ -195,6 +194,7 @@ config.taskConfiguration = {
         webpackSettings: {
             watch: false,
             entry: {
+                
             },
             output: {
                 filename: '[name].js'
